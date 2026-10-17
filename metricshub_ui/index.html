@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MetricsHub Dashboard</title>
+
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header class="navbar-wrapper">
+        <nav class="navbar">
+            <a href="#" class="brand">MetricsHub</a>
+
+            <div class="nav-links">
+                <a href="#dashboard">Dashboard</a>
+                <a href="#metrics">Metrics</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#reports">Reports</a>
+            </div>
+
+            <div class="nav-actions">
+                <a href="#" class="login-btn">Đăng nhập</a>
+                <a href="#" class="signup-btn">Bắt đầu</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Hero -->
+        <section class="hero">
+            <div class="hero-content">
+                <span class="hero-badge">ANALYTICS PLATFORM</span>
+                <h1>Monitor everything.<br><span>Understand instantly.</span></h1>
+                <p>
+                    Nền tảng phân tích và giám sát hiện đại giúp bạn theo dõi
+                    hiệu suất hệ thống trong thời gian thực.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#dashboard" class="primary-btn">Xem Dashboard</a>
+                    <a href="#pricing" class="secondary-btn">Xem bảng giá</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Dashboard -->
+        <section id="dashboard" class="section">
+            <div class="section-heading">
+                <div>
+                    <span class="section-label">OVERVIEW</span>
+                    <h2>System Dashboard</h2>
+                </div>
+                <span class="status">
+                    <span class="status-dot"></span>
+                    All systems operational
+                </span>
+            </div>
+
+            <div class="dashboard-grid">
+
+                <article class="metric-card large-widget">
+                    <div class="card-top">
+                        <div>
+                            <span class="metric-label">REVENUE</span>
+                            <h3>$84,294</h3>
+                        </div>
+                        <span class="trend positive">+18.4%</span>
+                    </div>
+
+                    <div class="chart">
+                        <div class="chart-bars">
+                            <span style="height: 35%"></span>
+                            <span style="height: 48%"></span>
+                            <span style="height: 42%"></span>
+                            <span style="height: 61%"></span>
+                            <span style="height: 54%"></span>
+                            <span style="height: 72%"></span>
+                            <span style="height: 67%"></span>
+                            <span style="height: 83%"></span>
+                            <span style="height: 76%"></span>
+                            <span style="height: 91%"></span>
+                            <span style="height: 86%"></span>
+                            <span style="height: 100%"></span>
+                        </div>
+                    </div>
+
+                    <div class="chart-labels">
+                        <span>Jan</span>
+                        <span>Feb</span>
+                        <span>Mar</span>
+                        <span>Apr</span>
+                        <span>May</span>
+                        <span>Jun</span>
+                    </div>
+                </article>
+
+                <article class="metric-card">
+                    <span class="metric-label">ACTIVE USERS</span>
+                    <h3>24,892</h3>
+                    <span class="trend positive">+12.6%</span>
+                    <div class="mini-chart">
+                        <span></span><span></span><span></span><span></span>
+                        <span></span><span></span><span></span><span></span>
+                    </div>
+                </article>
+
+                <article class="metric-card">
+                    <span class="metric-label">CONVERSION</span>
+                    <h3>7.84%</h3>
+                    <span class="trend positive">+2.1%</span>
+                    <div class="progress-track">
+                        <div class="progress-value"></div>
+                    </div>
+                </article>
+
+                <article class="metric-card">
+                    <span class="metric-label">SERVER LOAD</span>
+                    <h3>42%</h3>
+                    <span class="trend neutral">Normal</span>
+                    <div class="server-ring">
+                        <div>42%</div>
+                    </div>
+                </article>
+
+                <article class="metric-card">
+                    <span class="metric-label">UPTIME</span>
+                    <h3>99.98%</h3>
+                    <span class="trend positive">Excellent</span>
+                    <div class="uptime-line">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Extra metrics -->
+        <section id="metrics" class="section metrics-section">
+            <div class="section-heading">
+                <div>
+                    <span class="section-label">REAL-TIME</span>
+                    <h2>Live Metrics</h2>
+                </div>
+            </div>
+
+            <div class="live-metrics">
+                <div class="live-item">
+                    <span>CPU Usage</span>
+                    <strong>38.2%</strong>
+                </div>
+
+                <div class="live-item">
+                    <span>Memory</span>
+                    <strong>64.8%</strong>
+                </div>
+
+                <div class="live-item">
+                    <span>Requests / sec</span>
+                    <strong>1,284</strong>
+                </div>
+
+                <div class="live-item">
+                    <span>Latency</span>
+                    <strong>42ms</strong>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing -->
+        <section id="pricing" class="section pricing-section">
+            <div class="section-heading centered">
+                <div>
+                    <span class="section-label">PRICING</span>
+                    <h2>Choose your plan</h2>
+                    <p>Đơn giản, minh bạch và phù hợp với mọi quy mô.</p>
+                </div>
+            </div>
+
+            <div class="row g-4 pricing-row">
+
+                <div class="col-12 col-md-4">
+                    <div class="card pricing-card h-100">
+                        <div class="card-body">
+                            <span class="plan-name">STARTER</span>
+                            <h3 class="price">$0</h3>
+                            <p class="price-description">
+                                Dành cho cá nhân và dự án nhỏ.
+                            </p>
+
+                            <ul class="feature-list">
+                                <li>✓ 3 dashboards</li>
+                                <li>✓ 10,000 events / tháng</li>
+                                <li>✓ 7 ngày lưu dữ liệu</li>
+                                <li>✓ Community support</li>
+                            </ul>
+
+                            <a href="#" class="plan-btn">Bắt đầu miễn phí</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4">
+                    <div class="card pricing-card featured h-100">
+                        <div class="popular-badge">POPULAR</div>
+
+                        <div class="card-body">
+                            <span class="plan-name">PRO</span>
+                            <h3 class="price">$49<span>/tháng</span></h3>
+                            <p class="price-description">
+                                Cho team và sản phẩm đang phát triển.
+                            </p>
+
+                            <ul class="feature-list">
+                                <li>✓ Unlimited dashboards</li>
+                                <li>✓ 1M events / tháng</li>
+                                <li>✓ 90 ngày lưu dữ liệu</li>
+                                <li>✓ Advanced analytics</li>
+                            </ul>
+
+                            <a href="#" class="plan-btn primary-plan">
+                                Dùng thử Pro
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4">
+                    <div class="card pricing-card h-100">
+                        <div class="card-body">
+                            <span class="plan-name">ENTERPRISE</span>
+                            <h3 class="price">Custom</h3>
+                            <p class="price-description">
+                                Cho tổ chức có nhu cầu chuyên sâu.
+                            </p>
+
+                            <ul class="feature-list">
+                                <li>✓ Unlimited events</li>
+                                <li>✓ Unlimited retention</li>
+                                <li>✓ SSO & advanced security</li>
+                                <li>✓ Dedicated support</li>
+                            </ul>
+
+                            <a href="#" class="plan-btn">Liên hệ</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Reports -->
+        <section id="reports" class="section report-section">
+            <div class="report-box">
+                <div>
+                    <span class="section-label">REPORTS</span>
+                    <h2>Make data-driven decisions.</h2>
+                    <p>
+                        Tạo báo cáo trực quan và chia sẻ insight với toàn bộ team.
+                    </p>
+                </div>
+
+                <a href="#" class="primary-btn">Tạo báo cáo</a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 MetricsHub. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
